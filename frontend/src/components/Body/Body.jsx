@@ -14,7 +14,7 @@ const Body = () => {
             <Profile />
             
         </div>
-        <div className="body_right">
+        <div className="body__right">
           <Chat />
         </div>
     </div>
