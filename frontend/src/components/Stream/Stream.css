@@ -1,11 +1,13 @@
 .stream {
     height: 50%;
     display: grid;
+   
     place-items: center;
 }
 
 .stream__container {
     display: flex;
+    flex-direction: column;
 }
 
 .stream__status {
