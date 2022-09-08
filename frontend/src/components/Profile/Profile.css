@@ -1,5 +1,5 @@
 .profile {
-    width:1720px;
+    width:1120px;
     background-color: #0e0e10;
 }
 
@@ -68,10 +68,13 @@
 
 .profile__recentItems {
     display: flex;
+    
 }
 
 .profile__recent {
     margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .profile__categories {

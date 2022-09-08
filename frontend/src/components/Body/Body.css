@@ -10,3 +10,9 @@
 .body__left {
     width: 96%;
 }
+
+.body__right {
+    display: flex;
+    height: 175vh;
+    width:700px;
+}

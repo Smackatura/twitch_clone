@@ -16,14 +16,14 @@ function Stream() {
                 </div>
             </div>
         </div>
-        <div className="stream__videoEmbed">
+        {/* <div className="stream__videoEmbed">
         <iframe 
             width="500" 
             height="295" 
             src="https://www.youtube.com/embed/QXxNlpjnulI" 
             title="Blazor in 100 Seconds" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        </div> */}
     </div>
   )
 }

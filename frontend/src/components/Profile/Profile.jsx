@@ -25,10 +25,11 @@ const Profile = () => {
             <h2>Videos</h2>
             <h2><i className="fas fa-arrow-up"></i></h2>
             <h2>Chat</h2>
+            
         </div>
 
         <div className="profile__recent">
-            <h2>Recent broadcasts</h2>
+            
             <div className="profile__recentItems"></div>
                 <RecentItem 
                     url={"https://www.youtube.com/embed/6OKssWCEnAw"}
