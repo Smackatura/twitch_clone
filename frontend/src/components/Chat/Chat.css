@@ -5,7 +5,7 @@
     display:flex;
     flex-direction: column;
     background-color: #18181b;
-    
+    width: 21rem;
 }
 
 
@@ -17,14 +17,14 @@
     background-color: #18181b;
     color: black;
     height: 530px;
-    /* width:97%; */
+    width:97%;
    
 }
 .chatbox__formTop {
     background-color: #4a4a4c;
     height: 3.5rem;
     display: flex;
-    width: 94%;
+    /* width: 94%; */
     border-radius: 8px;
     overflow: hidden;
     
@@ -54,14 +54,6 @@
     
 }
 
-/* .header__center>input {
-    outline: none;
-    background-color: transparent;
-    flex: 1;
-    margin-left: 15px;
-    font-size: large;
-    border: none;
-} */
 
 .claim{
     background-color: green;
@@ -69,12 +61,3 @@
     margin-left: 35px;;
     border-radius: 7px;
 }
-
-/* .chat {
-    padding: 10px;
-    width: 13%;
-    background-color: #1f1f23;
-    height: 175vh;
-    display:flex;
-    flex-direction: column;
-} */
