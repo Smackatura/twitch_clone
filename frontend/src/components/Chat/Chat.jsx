@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react';
+import DisplayChat from '../DisplayChat/DisplayChat'
 import "./Chat.css"
 
-function Chat() {
+const Chat = (props) => {
+  const [msg, setMsg] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div className="chat">
         <div className="chat__top">
@@ -11,16 +17,22 @@ function Chat() {
         </div>
     
         <div className="chat__content">
-
+            {props.msg}
         </div>
         <div className="chat__bottom">
-            <div className="chatbox__formTop"action="">
-                <input type="text" placeholder="Send a message"/>
-            </div>
+            <form className="chatbox__formTop" action="" onSubmit={ handleSubmit }>
+                <input 
+                onChange={ (e) => setMsg(e.target.value) }
+                type="text"
+                value= {msg}
+                placeholder="Send a message"/>
+                <input className="chat__inputRight" type="submit" />
+            </form>
             <div className="chatbox__formBottom">
-                <button className="claim"></button>
-                <input className="chat__inputRight"type="submit" />
+                
+                <input className="chat__inputRight" type="submit" />
             </div>
+            <button className="claim"></button>
         </div>
         
         
